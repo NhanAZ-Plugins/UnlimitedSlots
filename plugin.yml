@@ -1,9 +1,9 @@
 ---
 name: UnlimitedSlots
-version: 0.0.1
+version: 0.0.2
 main: NhanAZ\UnlimitedSlots\Main
 api: 5.0.0
 author: NhanAZ
-website: https://github.com/NhanAZ
-description: Unlimited slots players join the server.
+website: https://github.com/NhanAZ-Plugins/UnlimitedSlots
+description: Allow joins beyond the configured player limit on Axolotl-PM.
 ...
