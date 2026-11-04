@@ -1,8 +1,15 @@
 # UnlimitedSlots
 
-UnlimitedSlots lets players join an [Axolotl-PM](https://github.com/axolotl-pm/PocketMine-MP) server after its configured player limit has been reached. It removes the server-full reason during the prelogin event and advertises one available slot in legacy query responses.
+Allow players to join Axolotl-PM servers beyond the configured player limit
 
-The plugin leaves whitelist and ban decisions intact. Other plugins can still deny a login, and the server still needs enough resources to handle additional players. The plugin does not change Axolotl-PM's configured player limit.
+[![CI](https://github.com/NhanAZ-Plugins/UnlimitedSlots/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/UnlimitedSlots/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/UnlimitedSlots)](https://github.com/NhanAZ-Plugins/UnlimitedSlots/releases/latest)
+[![License](https://img.shields.io/github/license/NhanAZ-Plugins/UnlimitedSlots)](https://github.com/NhanAZ-Plugins/UnlimitedSlots/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Requirements
 
