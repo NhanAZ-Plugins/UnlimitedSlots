@@ -19,7 +19,7 @@ Download the PHAR from [GitHub Releases](https://github.com/NhanAZ-Plugins/Unlim
 
 ## Development and validation
 
-The [build workflow](.github/workflows/build.yml) runs admission policy tests against pinned Axolotl-PM source revisions. It then uses [DevTools](https://github.com/NhanAZ/DevTools) to run PHPStan at maximum level, build the plugin PHAR and validate the artifact. Exact tested revisions and build results are recorded in the workflow and its [GitHub Actions runs](https://github.com/NhanAZ-Plugins/UnlimitedSlots/actions).
+The [build workflow](.github/workflows/build.yml) runs admission policy tests against pinned Axolotl-PM source revisions. It then uses [DevTools](https://github.com/AxolotlBucketLabs/DevTools) to run PHPStan at maximum level, build the plugin PHAR and validate the artifact. Exact tested revisions and build results are recorded in the workflow and its [GitHub Actions runs](https://github.com/NhanAZ-Plugins/UnlimitedSlots/actions).
 
 The admission policy tests exercise the query and prelogin event behavior. A live Bedrock client joining a full server has not been tested.
 
